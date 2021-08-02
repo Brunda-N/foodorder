@@ -25,7 +25,7 @@ const AvailableMeals = () => {
         loadedMeals.push({
           id : key,
           name : responseData[key].name,
-          descriptipn : responseData[key].description,
+          description : responseData[key].description,
           price : responseData[key].price,
         });
       }
